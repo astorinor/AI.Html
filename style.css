@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #F4E1C1; /* Warm beige for a cozy autumn feel */
+    color: #4B2E19; /* Deep brown for text contrast */
+}
+
+header, footer {
+    background-color: #A6492D; /* Rich autumn red-orange */
+    color: white;
+    padding: 20px;
+    width: 100%;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 20px 0;
+    gap: 20px;
+}
+
+.column {
+    width: 30%;
+    padding: 20px;
+    background-color: #D98555; /* Warm burnt orange for section backgrounds */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1, h2 {
+    color: #8C3A17; /* Deep autumn red for titles */
+}
+
+.image-container {
+    margin-top: 20px;
+}
+
+.image-container img {
+    width: 80%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+footer p {
+    margin: 0;
+}
